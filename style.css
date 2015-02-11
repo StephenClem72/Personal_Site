@@ -29,8 +29,7 @@ h2, h3, h4, h5{
   right: 0;
   border-bottom: 2px solid #f7eac8;
   z-index: 1000;
-  background-color:; #28abe3
-  color: #f7eac8
+  background-color: #28abe3;
 }
 
 .me-logo{
@@ -58,10 +57,11 @@ h2, h3, h4, h5{
 }
 
 .nav-links a{
+  color: #f7eac8;
   text-decoration: none;
   font-family: south;
   font-size: 250%;
-  color: #1E90FF;
+  /*color: #1E90FF;*/
 }
 
 .nav-links li:hover{
