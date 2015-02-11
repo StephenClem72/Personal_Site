@@ -15,16 +15,16 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 
- $(window).scroll (function () {
-    var sT = $(this).scrollTop();
-    console.log(sT)
-        if (sT >= 572 && sT <= 1089 ) {
-            // $('.navbar').css('backgroundColor', '#e8b71a')
-            $('.navbar a').css('color', '#f7eac8')
-        }else {
-            $('.navbar').css('backgroundColor', '#28abe3')
-            $('.navbar a').css('color', '#f7eac8')
-        }
-  })
+ // $(window).scroll (function () {
+ //    var sT = $(this).scrollTop();
+ //    console.log(sT)
+ //        if (sT >= 572 && sT <= 1089 ) {
+ //            // $('.navbar').css('backgroundColor', '#e8b71a')
+ //            $('.navbar a').css('color', '#f7eac8')
+ //        }else {
+ //            $('.navbar').css('backgroundColor', '#28abe3')
+ //            $('.navbar a').css('color', '#f7eac8')
+ //        }
+ //  })
 
 })
