@@ -27,4 +27,6 @@ $('a[href*=#]:not([href=#])').click(function() {
  //        }
  //  })
 
+console.log('hey')
+
 })
