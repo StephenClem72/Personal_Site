@@ -1,5 +1,5 @@
 @font-face {
-    font-family: south;
+    font-family: remachine;
     src: url('/fonts/remachine_script/RemachineScript_Personal_Use.ttf');
 }
 
@@ -8,12 +8,12 @@ html{
 }
 
 .sect_header{
-  font-family: south;
+  font-family: remachine;
   font-size: 2em
 }
 
 h2, h3, h4, h5{
-  font-family: south;
+  font-family: remachine;
   font-size: 4em;
   margin-bottom: 0;
 }
@@ -59,7 +59,7 @@ h2, h3, h4, h5{
 .nav-links a{
   color: #f7eac8;
   text-decoration: none;
-  font-family: south;
+  font-family: remachine;
   font-size: 250%;
   /*color: #1E90FF;*/
 }
@@ -107,7 +107,7 @@ section{
 }
 
 .info_text{
-  font-family: south;
+  font-family: remachine;
   position: relative;
   color: #f7eac8;
   font-size: 7em;
