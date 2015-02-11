@@ -1,6 +1,6 @@
 @font-face {
     font-family: south;
-    src: url(fonts/remachine_script/RemachineScript_Personal_Use.ttf);
+    src: url(./public/fonts/remachine_script/RemachineScript_Personal_Use.ttf);
 }
 
 html{
@@ -227,9 +227,3 @@ section{
 footer{
   color: #f7eac8
 }
-
-
-
-
-
-
