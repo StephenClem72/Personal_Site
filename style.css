@@ -1,0 +1,233 @@
+@font-face {
+    font-family: south;
+    src: url(fonts/remachine_script/RemachineScript_Personal_Use.ttf);
+}
+
+html{
+  background-color: #e8b71a;
+}
+
+.sect_header{
+  font-family: south;
+  font-size: 2em
+}
+
+h2, h3, h4, h5{
+  font-family: south;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.navbar{
+  /*color: white;*/
+  /*background: #28abe3;*/
+  position: fixed;
+  height: 3em;
+  width:100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid #f7eac8;
+  z-index: 1000;
+}
+
+.me-logo{
+  height: 100%;
+  float: left;
+  margin-left: 7%
+}
+
+.nav-links{
+  width: 90%;
+  /*border: 1px solid black;*/
+  text-align: right;
+  /*margin-right: 10%;*/
+  /*-webkit-transition:background-color 2s, -webkit-transform 2s;*/
+  /*transition:background-color 2s, transform 2s;*/
+}
+
+.nav-links li{
+  list-style: none;
+  display: inline-block;
+  /*text-decoration: none;*/
+  width: 15%;
+  margin-top: -1%;
+  transition: 0.1s ease-in-out
+}
+
+.nav-links a{
+  text-decoration: none;
+  font-family: south;
+  font-size: 250%;
+  color: #1E90FF;
+}
+
+.nav-links li:hover{
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+section{
+  /*padding-top: 5%;*/
+  /*border: 1px solid black;*/
+  height: auto;
+  padding: 3% 10% 5% 10%;
+  margin:0 -5% 0 -5%;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.mainpic{
+  /*position: relative;*/
+  position: absolute;
+  /*bottom: 0;*/
+  margin-top: -10em;
+  /*height: 10%;*/
+  width: 30%;
+  margin-left: 15%;
+  /*float: right;*/
+}
+
+.sect_title{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.intro_section{
+  /*background-color: #1E90FF;*/
+  background-size: 100% 100%;
+  background: #e8b71a;
+  padding: 13% 0% 17.5% 0%;
+  /*border: 1px solid black;*/
+  /*text-align: center;*/
+  position: relative;
+/*  background-image: url('http://hd.wallpaperswide.com/thumbs/cosmic_calm-t2.jpg');
+  background-size: 100%;*/
+}
+
+.info_text{
+  font-family: south;
+  position: relative;
+  color: #f7eac8;
+  font-size: 7em;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  text-align: left;
+  padding-right: 10%
+}
+
+.subtitle{
+  font-size: 4em
+}
+
+.arrow{
+  position: absolute;
+  bottom:0;
+  margin: auto;
+  right: 47%;
+  height: 12%;
+  width: 10%;
+}
+
+.about_section h3{
+  color: #e8b71a;
+}
+
+.about_section{
+  /*border: 1px solid black;*/
+  background-color: #28abe3;
+
+
+}
+
+.about_section div{
+  width: 30%;
+  height: 70%;
+  /*border: 1px solid black;*/
+  display: inline-block;
+  margin-left: 5%;
+  /*border-radius: 1em;*/
+  background-color: #e8b71a;
+  padding: 0 5% 0 5%;
+  font-size: 1.25em;
+  color: #f7eac8;
+  text-align:center;
+}
+
+.portfolio_section{
+  box-shadow: 5px 5px 5px #888888;
+  padding-bottom: -10%;
+  /*z-index:-100000;*/
+  border-bottom: 1px solid black;
+}
+
+.portfolio_section h3{
+  color: #28abe3;
+}
+
+.project_list{
+  text-align: center;
+  list-style: none;
+  margin: 0;
+}
+
+.project_list li{
+  display: inline-block;
+  padding: 5% 2% 5% 2%;
+
+}
+
+.project_list img{
+  width: 17em;
+  height: 13em;
+}
+
+.skills_container{
+  float: right;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.contact_section{
+  background-color: #28abe3;
+
+}
+.contact_info{
+  text-align: center
+}
+
+.contact_section h3{
+  color: #e8b71a
+}
+.contact_info h5{
+  margin-top: 0;
+  font-size: 300%;
+  color:#f7eac8;
+}
+
+.contact_photo{
+  height: 70%;
+  width: 25%;
+  min-width: 10em;
+}
+
+.social_media{
+  list-style: none;
+  display: inline-block;
+  min-width: 7%
+}
+
+.socmed_icon{
+  height: 4em;
+  width: 4em;
+}
+
+footer{
+  color: #f7eac8
+}
+
+
+
+
+
+
