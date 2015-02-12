@@ -16,19 +16,19 @@ $('a[href*=#]:not([href=#])').click(function() {
 });
 
 
-  $(".project_list li").each(function(){
+  $(".project_list li a").each(function(){
 
       $(this).hover(function(){
         console.log('hey')
 
         // Fade in the child "span"
         $(this).find('.caption').show(function(){
-          $(this).animate({duration: 1600, easing: 'easeOutBounce'})
+          $(this).animate({duration: 1000, easing: 'easeInElastic'})
         });
         }, function(){
         // Once you mouse off, fade it out
         $(this).find('.caption').hide(function(){
-          $(this).animate({duration: 1600, easing: 'easeOutBack'})
+          $(this).animate({duration: 1000, easing: 'easeOutBack'})
         })
       });
   // End $(this)
