@@ -176,12 +176,29 @@ section{
 .project_list li{
   display: inline-block;
   padding: 5% 2% 5% 2%;
+  position: relative;
 
 }
 
 .project_list img{
   width: 17em;
   height: 13em;
+  /*position: absolute;*/
+}
+
+.caption{
+  position: absolute;
+  background: #28abe3;
+  color: #fff;
+  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=80)';
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  width: 17em;
+  height: 13em;
+  margin-top: -13.27em;
+  display: none
+
 }
 
 .skills_container{
