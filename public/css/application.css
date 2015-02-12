@@ -86,6 +86,7 @@ section{
   /*height: 10%;*/
   width: 30%;
   margin-left: 15%;
+  vertical-align: center;
   /*float: right;*/
 }
 
@@ -110,7 +111,7 @@ section{
   font-family: remachine;
   position: relative;
   color: #f7eac8;
-  font-size: 7em;
+  font-size: 600%;
   width: 80%;
   height: 80%;
   margin-left: 10%;
@@ -119,7 +120,7 @@ section{
 }
 
 .subtitle{
-  font-size: 4em
+  font-size: 500%
 }
 
 .arrow{
@@ -188,18 +189,21 @@ section{
 
 .caption{
   position: absolute;
-  background: #28abe3;
+  background: rgba(40, 171, 227, 0.8);
   color: #fff;
-  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=80)';
+/*  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=80)';
   -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;
+  -khtml-opacity: 0.8;*/
+  /*opacity: 0.8;*/
   width: 17em;
   height: 13em;
   margin-top: -13.27em;
   display: none
-
 }
+
+/*.caption p{
+  opacity: 1
+}*/
 
 .skills_container{
   float: right;
@@ -237,8 +241,10 @@ section{
 }
 
 .socmed_icon{
-  height: 4em;
-  width: 4em;
+  height: 4.10em;
+  width: 4.10em;
+  border-radius: 4em;
+  border: 3px solid white;
 }
 
 footer{
