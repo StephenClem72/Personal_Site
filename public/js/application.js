@@ -16,6 +16,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 });
 
 
+if(screen.width >= 800){
   $(".project_list li a").each(function(){
 
       $(this).hover(function(){
@@ -35,6 +36,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
       });
   });
+}
 
 
 });
