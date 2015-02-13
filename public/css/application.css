@@ -64,9 +64,13 @@ h2, h3, h4, h5{
   /*color: #1E90FF;*/
 }
 
-.nav-links li:hover{
-  -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+.nav-links li:hover, .me-logo:hover{
+  -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.me-logo:{
+  transition: 0.1s ease-in-out
 }
 
 section{
