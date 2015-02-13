@@ -191,19 +191,11 @@ section{
   position: absolute;
   background: rgba(40, 171, 227, 0.8);
   color: #fff;
-/*  -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=80)';
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;*/
-  /*opacity: 0.8;*/
   width: 17em;
   height: 13em;
-  margin-top: -13.27em;
+  margin-top: -13em;
   display: none
 }
-
-/*.caption p{
-  opacity: 1
-}*/
 
 .skills_container{
   float: right;
