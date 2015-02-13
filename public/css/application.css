@@ -87,6 +87,8 @@ section{
   width: 30%;
   margin-left: 15%;
   vertical-align: center;
+  max-height: 500px;
+  max-width: 463px;
   /*float: right;*/
 }
 
@@ -139,8 +141,6 @@ section{
 .about_section{
   /*border: 1px solid black;*/
   background-color: #28abe3;
-
-
 }
 
 .about_section div{
@@ -235,10 +235,108 @@ section{
 .socmed_icon{
   height: 4.10em;
   width: 4.10em;
-  border-radius: 4em;
+  border-radius: 100%;
   border: 3px solid white;
 }
 
 footer{
   color: #f7eac8
+}
+
+@media only screen
+    and (max-device-width: 640px),
+    only screen and (max-device-width: 667px),
+    only screen and (max-width: 480px){
+
+  .navbar{
+    height: 5%;
+  }
+
+  .nav-links{
+    text-align: center;
+    width: 100%;
+    margin-left: -5%
+  }
+
+  .navbar li{
+    width: 30%;
+    font-size: 200%
+  }
+
+  .me-logo{
+    display: none;
+
+    /*width: 0;*/
+  }
+
+  .intro_section{
+    text-align: center;
+    font-size: 180%;
+  }
+
+  .mainpic{
+    display: block;
+    position: relative;
+    margin: auto;
+    padding-top: 5%
+  }
+
+  .about_section{
+    text-align: center;
+    /*display: block;*/
+    position: relative;
+    padding-bottom: 10%;
+
+  }
+
+  .about_section div{
+    font-size: 350%;
+    display: block;
+    margin-left: 0;
+    margin: auto;
+    width: 90%;
+    position: relative;
+    float: none;
+  }
+
+  .sect_title{
+    text-align: center;
+    margin-left: 0%;
+    font-size: 10em
+  }
+
+  .skills_container{
+    top: 40px;
+  }
+
+  .portfolio_section img{
+    width: 110%;
+    height: 110%;
+    margin-left: -5%
+  }
+
+
+
+  .contact_photo{
+    height: 75%;
+    width: 75%;
+  }
+
+  .contact_info h5{
+    font-size: 900%
+  }
+
+  .social_media{
+    width: 17%
+  }
+
+  .socmed_icon{
+    height: 90%;
+    width: 90%;
+  }
+
+
+
+
+
 }
