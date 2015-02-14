@@ -267,6 +267,12 @@ footer{
     font-size: 1.75em;
   }
 
+  h2, h3, h4, h5{
+  font-family: remachine;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
   .me-logo{
     display: none;
 
