@@ -253,7 +253,7 @@ footer{
     only screen and (max-width: 480px){
 
   .navbar{
-    height: 2em;
+    height: 5em;
   }
 
   .nav-links{
