@@ -16,7 +16,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 });
 
 
-if(screen.width >= 800){
+if(screen.width >= 400){
   $(".project_list li a").each(function(){
 
       $(this).hover(function(){
