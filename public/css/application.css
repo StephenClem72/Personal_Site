@@ -27,7 +27,7 @@ h2, h3, h4, h5{
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: 2px solid #f7eac8;
+  /*border-bottom: 2px solid #f7eac8;*/
   z-index: 1000;
   background-color: #28abe3;
 }
