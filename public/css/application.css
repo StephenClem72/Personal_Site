@@ -27,7 +27,7 @@ h2, h3, h4, h5{
   top: 0;
   left: 0;
   right: 0;
-  /*border-bottom: 2px solid #f7eac8;*/
+  border-bottom: 2px solid #f7eac8;
   z-index: 1000;
   background-color: #28abe3;
 }
@@ -42,9 +42,6 @@ h2, h3, h4, h5{
   width: 90%;
   /*border: 1px solid black;*/
   text-align: right;
-  /*margin-right: 10%;*/
-  /*-webkit-transition:background-color 2s, -webkit-transform 2s;*/
-  /*transition:background-color 2s, transform 2s;*/
 }
 
 .nav-links li{
@@ -89,8 +86,6 @@ section{
   /*margin-top: -10em;*/
   /*height: 10%;*/
   width: 30%;
-  /*margin-right: 15%;*/
-  /*vertical-align: center;*/
   float: right;
   max-height: 500px;
   max-width: 463px;
@@ -157,22 +152,32 @@ section{
   background-color: #28abe3;
 }
 
-.about_section div{
+.me_container, .skills_container{
   width: 30%;
   height: 70%;
   /*border: 1px solid black;*/
   display: inline-block;
-  margin-left: 5%;
   /*border-radius: 1em;*/
   background-color: #e8b71a;
   padding: 0 5% 0 5%;
   font-size: 1.25em;
   color: #f7eac8;
   text-align:center;
+  margin: 0 1% 0 1%;
+}
+
+.ms_holder{
+  width: 100%;
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
+  text-align: center
 }
 
 .skills_container{
-  float: right;
+  top: 0px;
+  /*position: absolute;*/
+  height: 100%;
 }
 
 .portfolio_section{
@@ -215,11 +220,6 @@ section{
   display: none
 }
 
-.skills_container{
-  float: right;
-  margin-right: 5%;
-  text-align: center;
-}
 
 .contact_section{
   background-color: #28abe3;
